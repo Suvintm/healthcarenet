@@ -1,0 +1,21 @@
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  border-bottom: 2px solid black;
+  width: auto;
+}
+
+ul li:hover {
+  border-bottom: 4px solid #08ff8c;
+  border-radius: 5px;
+}
+button {
+  color: white;
+  font-weight: 600;
+  background-color: #0d9449;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+}
