@@ -12,7 +12,7 @@ const Navbar = () => {
   const [token, settoken] = useState(true);
 
   return (
-    <div className="flex items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-600">
+    <div className="flex items-center justify-between text-sm py-4 mx-20 border-b border-b-gray-600">
       <img className="w-44 cursor-pointer" src={mylogo} alt="" />
       <ul className="hidden md:flex items-start gap-5 font-medium">
         <li className="py-1 m-2">Home</li>
@@ -27,7 +27,7 @@ const Navbar = () => {
             <img className="w-12 rounded-full " src={profile} alt="" />
             <img className="w-5" src={arrow} alt="" />
             <div className=" hidden absolute top-12 right-0 pt-15 text-base font-medium text-gray-700 z-10   group-hover:block ">
-              <div className="min-w-48 bg-stone-700 flex flex-col gap-4 p-4">
+              <div className="rounded-lg min-w-48 bg-stone-400 flex flex-col gap-4 p-4">
                 <p
                   onClick={() => navigate("/myprofile")}
                   className="hover:text-black cursor-pointer"
