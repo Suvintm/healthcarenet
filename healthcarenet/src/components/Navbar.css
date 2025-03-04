@@ -1,20 +1,27 @@
 ul {
   list-style-type: none;
+  background-color: rgb(6, 106, 246);
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 25px;
+  padding-bottom: 5px;
+  margin-right: 40px;
+  width: 460px;
 }
 
 ul li {
-  border-bottom: 2px solid black;
-  width: auto;
+  border-bottom: rgb(6, 106, 246);
 }
 
 ul li:hover {
-  border-bottom: 4px solid #08ff8c;
-  border-radius: 5px;
+  border-bottom: 2px solid #08ff8c;
 }
 button {
   color: white;
   font-weight: 600;
-  background-color: #0d9449;
+  background-color: #0068f9;
   padding: 10px;
   border: none;
   border-radius: 15px;

@@ -12,14 +12,23 @@ const Navbar = () => {
   const [token, settoken] = useState(true);
 
   return (
-    <div className="flex items-center justify-between text-sm py-4 mx-20 border-b border-b-gray-600">
-      <img className="w-44 cursor-pointer" src={mylogo} alt="" />
+    <div className="bg-blue-200 rounded-[20px]  flex items-center justify-between text-sm py-6 px-10 mx-10 my-4 border-b border-b-gray-600">
+      <img className="w-35 cursor-pointer md:w-44" src={mylogo} alt="" />
       <ul className="hidden md:flex items-start gap-5 font-medium">
-        <li className="py-1 m-2">Home</li>
+        <li className="py-1 m-2  hover:translate-y-[-6px] transition-all duration-500 ">
+          Home
+        </li>
 
-        <li className="py-1 m-2">Contact</li>
+        <li className="py-1 m-2  hover:translate-y-[-6px] transition-all duration-500 ">
+          All Doctors
+        </li>
+        <li className="py-1 m-2  hover:translate-y-[-6px] transition-all duration-500 ">
+          Contact
+        </li>
 
-        <li className="py-1 m-2">About</li>
+        <li className="py-1 m-2  hover:translate-y-[-6px] transition-all duration-500 ">
+          About
+        </li>
       </ul>
       <div className="flex items-center gap-4">
         {token ? (
