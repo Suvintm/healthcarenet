@@ -11,6 +11,7 @@ export const specialityData = [
     speciality: "General physician",
     image: General_physician,
     width: "100px",
+    font: "bold",
   },
   {
     speciality: "Dermetologist",
@@ -31,5 +32,83 @@ export const specialityData = [
     speciality: "Neorologist",
     image: Neorologist,
     width: "110px",
+  },
+];
+
+export const doctors = [
+  {
+    name: "Ashok",
+    speciality: "neorologist",
+    image: Neorologist,
+  },
+  {
+    name: "Ashok",
+    speciality: "neorologist",
+    image: Neorologist,
+  },
+  {
+    name: "Ashok",
+    speciality: "neorologist",
+    image: Neorologist,
+  },
+  {
+    name: "Ashok",
+    speciality: "neorologist",
+    image: Neorologist,
+  },
+  {
+    name: "Ashok",
+    speciality: "neorologist",
+    image: Neorologist,
+  },
+  {
+    name: "Ashok",
+    speciality: "neorologist",
+    image: Neorologist,
+  },
+  {
+    name: "Ashok",
+    speciality: "neorologist",
+    image: Neorologist,
+  },
+  {
+    name: "Ashok",
+    speciality: "neorologist",
+    image: Neorologist,
+  },
+  {
+    name: "Ashok",
+    speciality: "neorologist",
+    image: Neorologist,
+  },
+  {
+    name: "Ashok",
+    speciality: "neorologist",
+    image: Neorologist,
+  },
+  {
+    name: "Ashok",
+    speciality: "neorologist",
+    image: Neorologist,
+  },
+  {
+    name: "Ashok",
+    speciality: "neorologist",
+    image: Neorologist,
+  },
+  {
+    name: "Ashok",
+    speciality: "neorologist",
+    image: Neorologist,
+  },
+  {
+    name: "Ashok",
+    speciality: "neorologist",
+    image: Neorologist,
+  },
+  {
+    name: "Ashok",
+    speciality: "neorologist",
+    image: Neorologist,
   },
 ];

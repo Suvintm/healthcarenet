@@ -6,17 +6,19 @@ ul {
   font-size: 20px;
   padding: 10px;
   padding-left: 25px;
-  padding-bottom: 5px;
+  padding-bottom: 20px;
   margin-right: 40px;
   width: 460px;
+  cursor: pointer;
 }
 
 ul li {
-  border-bottom: rgb(6, 106, 246);
+  border-left: rgb(6, 106, 246);
 }
 
 ul li:hover {
   border-bottom: 2px solid #08ff8c;
+  border-top-right-radius: 10;
 }
 button {
   color: white;
