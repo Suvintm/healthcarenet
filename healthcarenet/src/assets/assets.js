@@ -37,76 +37,91 @@ export const specialityData = [
 
 export const doctors = [
   {
+    _id: "doc1",
     name: "Ashok",
     speciality: "neorologist",
     image: Neorologist,
   },
   {
+    _id: "doc2",
     name: "Ashok",
     speciality: "neorologist",
     image: Neorologist,
   },
   {
+    _id: "doc1",
     name: "Ashok",
     speciality: "neorologist",
     image: Neorologist,
   },
   {
+    _id: "doc1",
     name: "Ashok",
     speciality: "neorologist",
     image: Neorologist,
   },
   {
+    _id: "doc1",
     name: "Ashok",
     speciality: "neorologist",
     image: Neorologist,
   },
   {
+    _id: "doc1",
     name: "Ashok",
     speciality: "neorologist",
     image: Neorologist,
   },
   {
+    _id: "doc1",
     name: "Ashok",
     speciality: "neorologist",
     image: Neorologist,
   },
   {
+    _id: "doc1",
     name: "Ashok",
     speciality: "neorologist",
     image: Neorologist,
   },
   {
+    _id: "doc1",
     name: "Ashok",
     speciality: "neorologist",
     image: Neorologist,
   },
   {
+    _id: "doc1",
     name: "Ashok",
     speciality: "neorologist",
     image: Neorologist,
   },
   {
+    _id: "doc1",
     name: "Ashok",
     speciality: "neorologist",
     image: Neorologist,
   },
   {
+    _id: "doc1",
     name: "Ashok",
     speciality: "neorologist",
     image: Neorologist,
   },
   {
+    _id: "doc1",
     name: "Ashok",
     speciality: "neorologist",
     image: Neorologist,
   },
   {
+    _id: "doc1",
     name: "Ashok",
     speciality: "neorologist",
     image: Neorologist,
   },
   {
+    _id: "doc1",
     name: "Ashok",
     speciality: "neorologist",
     image: Neorologist,

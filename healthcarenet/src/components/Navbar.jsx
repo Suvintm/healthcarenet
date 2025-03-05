@@ -12,7 +12,7 @@ const Navbar = () => {
   const [token, settoken] = useState(true);
 
   return (
-    <div className="bg-blue-200 rounded-[20px]  flex items-center justify-between text-sm py-6 px-10 mx-10 my-4 border-b border-b-gray-600">
+    <div className="bg-blue-200 rounded-[20px]  flex items-center justify-between text-sm py-6 px-10 mx-6 mt-4 md:mx-20 border-b border-b-gray-600">
       <img className="w-35 cursor-pointer md:w-44" src={mylogo} alt="" />
       <ul className="hidden md:flex items-start gap-5 font-medium">
         <li
@@ -72,6 +72,7 @@ const Navbar = () => {
           </div>
         ) : (
           <button
+            id="btn"
             onClick={() => navigate(".login")}
             className="hidden md:block"
           >

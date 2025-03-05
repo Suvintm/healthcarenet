@@ -8,9 +8,11 @@ import Myappointments from "./pages/Myappointments";
 import Doctors from "./pages/Doctors";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
+import Appointment from "./pages/Appointment";
+import AppContextProvider from "./context/AppContext";
 const App = () => {
   return (
-    <div>
+    <AppContextProvider>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -20,8 +22,9 @@ const App = () => {
         <Route path="/alldoctors" element={<Doctors />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+        <Route path="/appointment/:docId" element={<Appointment />} />
       </Routes>
-    </div>
+    </AppContextProvider>
   );
 };
 

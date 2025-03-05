@@ -20,7 +20,7 @@ ul li:hover {
   border-bottom: 2px solid #08ff8c;
   border-top-right-radius: 10;
 }
-button {
+#btn {
   color: white;
   font-weight: 600;
   background-color: #0068f9;
