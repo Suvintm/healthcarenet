@@ -10,6 +10,7 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Appointment from "./pages/Appointment";
 import AppContextProvider from "./context/AppContext";
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <AppContextProvider>
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/appointment/:docId" element={<Appointment />} />
       </Routes>
+      <Footer />
     </AppContextProvider>
   );
 };

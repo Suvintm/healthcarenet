@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className="bg-blue-200 rounded-[20px]  flex items-center justify-between text-sm py-6 px-10 mx-6 mt-4 md:mx-20 border-b border-b-gray-600">
       <img className="w-35 cursor-pointer md:w-44" src={mylogo} alt="" />
-      <ul className="hidden md:flex items-start gap-5 font-medium">
+      <ul id="navul" className="hidden md:flex items-start gap-5 font-medium">
         <li
           onClick={() => navigate("/")}
           className="py-1 m-2  hover:translate-y-[-6px] transition-all duration-500 "

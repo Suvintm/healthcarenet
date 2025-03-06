@@ -39,8 +39,8 @@ export const doctors = [
   {
     _id: "doc1",
     name: "Ashok",
-    speciality: "neorologist",
-    image: Neorologist,
+    speciality: "Genearl_physician",
+    image: General_physician,
   },
   {
     _id: "doc2",
@@ -51,14 +51,14 @@ export const doctors = [
   {
     _id: "doc1",
     name: "Ashok",
-    speciality: "neorologist",
-    image: Neorologist,
+    speciality: "Dermetologist",
+    image: Dermetologist,
   },
   {
     _id: "doc1",
     name: "Ashok",
-    speciality: "neorologist",
-    image: Neorologist,
+    speciality: "Peditritian",
+    image: Pediatrician,
   },
   {
     _id: "doc1",

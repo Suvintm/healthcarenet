@@ -22,14 +22,15 @@ const Specialitymenu = () => {
             to={`/alldoctors/${item.speciality}`}
           >
             <img
-              className="w-16 sm:w-24 mb-2"
+              className="w-16 sm:w-24 mb-2 "
               src={item.image}
               alt=""
               style={{
                 width: item.width,
                 height: item.height,
                 objectFit: "cover",
-                borderRadius: "50%", //  This styling I have reffered from Chatgpt
+                borderRadius: "50%",
+                //  This styling I have reffered from Chatgpt
               }}
             />
             <p>{item.speciality}</p>

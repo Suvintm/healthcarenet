@@ -34,7 +34,13 @@ const Topdoctors = () => {
           </div>
         ))}
       </div>
-      <button className="p-6 rounded-4xl bg-blue-200 font-bold w-40 ">
+      <button
+        onClick={() => {
+          navigate("/doctors");
+          scrollTo(0, 0);
+        }}
+        className="p-6 rounded-4xl bg-blue-200 font-bold w-40 "
+      >
         more
       </button>
     </div>
